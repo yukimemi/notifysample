@@ -1,0 +1,22 @@
+{
+  "directory_listing": true,
+  "enable_logging": true,
+  "error_pages": {
+    "404": "404.html"
+  },
+  "follow_symlinks": false,
+  "routes": {
+    "/": "index.html",
+    "/example": "example.html"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 3333
+  },
+  "static_directory": "static",
+  "template_variables": {
+    "load_static": "/static",
+    "name": "notify sample"
+  }
+}
+
